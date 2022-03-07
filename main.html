@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="text__high">
+            HIGH
+        </div>
+        <div class="tasks">
+            <div class="task__add">
+                <form onsubmit="return false">
+                    <input class="input__text" placeholder="Добавить важных дел" type="text" style="border-color: rgb(189, 189, 189);"/>
+                    <div class="button__plus">
+                        <input type="submit" class="plus" value="" />
+                        <img src="/img/plus.svg" alt="">
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        <div class="text__low">
+            LOW
+        </div>
+        <div class="tasks">
+            <div class="task__add">
+                <form onsubmit="return false">
+                    <input class="inputlow__text" placeholder="Добавить" />
+                    <div class="button__plus">
+                        <input type="submit" class="plus" value="" />
+                        <img src="/img/plus.svg" alt="">
+                    </div> 
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <script src="main.js" type="module"></script>
+</body>
+
+</html>
